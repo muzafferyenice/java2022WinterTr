@@ -5,7 +5,7 @@ public class C01_IlkClass {
 
 
         System.out.println("Hello world");
-
+        System.out.println("yenilik ogrenmek");
 
     }
 }
