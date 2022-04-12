@@ -19,7 +19,8 @@ public class C02 extends C01{
         /*
             @Override notasyonu overridden method ile overriding method'u
             birbirine baglar
-            Farkinda olunmadan overriden method silinirse veya signature degistirilirse
+            Farkinda olunmadan overriden method silinirse veya signature
+            degistirilirse
             bu iliski bozulacagi icin Java CTE verir
             Notosyon kullanilmazsa Java bunlari iliskisini bilir ama
             overridden method silinirse sesini cikarmaz

@@ -10,14 +10,26 @@ public class C05_Exception {
         Scanner scan = new Scanner(System.in);
         int toplam=0;
         do{
-            System.out.println("Lutfen toplamak istediginiz sayiyi giriniz \n bitirmek icin Q'ya basiniz");
+            System.out.println("Lutfen toplamak istediginiz sayiyi giriniz \n " +
+                    "bitirmek icin Q'ya basiniz");
             int sayi= 0;
             try {
                 sayi = scan.nextInt();
+                toplam+=sayi;
+
             } catch (InputMismatchException e) {
+                String hataliGiris=scan.next();
+                if(hataliGiris.equalsIgnoreCase("q")){
+                    System.out.println("toplam giris  "+toplam);
+                    break;
+                }else{
+                    System.out.println("hatali giris");
+                }
             }
-            toplam+=sayi;
+
+
         }while (toplam<500);
+        System.out.println("sayilari  toplami  "+toplam);
     }
 }
 
