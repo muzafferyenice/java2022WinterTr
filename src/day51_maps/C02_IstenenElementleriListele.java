@@ -45,7 +45,7 @@ public class C02_IstenenElementleriListele {
                 int input= parseInt(valueMDArr[i][3]);
                 //input+=parseInt(valueMDArr[i][3]);;
                 //System.out.println(input);
-                istenenDiliBilenlerListesi.add(String.valueOf(parseInt(valueMDArr[i][3])+input));
+                istenenDiliBilenlerListesi.add(String.valueOf((parseInt(valueMDArr[i][3])+input)));
                 istenenDiliBilenlerListesi.add(valueMDArr[i][3]);
             }
         }
